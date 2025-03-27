@@ -22,6 +22,8 @@ dependencies:
   dio: ^5.8.0+1
   injectable:
   get_it:
+  dartz: ^0.10.1
+
 
 dev_dependencies:
   flutter_test:
@@ -29,7 +31,7 @@ dev_dependencies:
   flutter_lints:
   injectable_generator:
   build_runner:
-
+  flutter_gen:
 flutter:
   generate: true
   uses-material-design: true
