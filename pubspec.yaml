@@ -23,6 +23,7 @@ dependencies:
   injectable:
   get_it:
   dartz: ^0.10.1
+  flutter_bloc: ^9.1.0
 
 
 dev_dependencies:

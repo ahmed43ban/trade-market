@@ -9,7 +9,7 @@ class SignUpRepoImpl extends SignUpRepo {
   SignUpDataSource signUpDataSource;
 
   @factoryMethod
-  SignUpRepoImpl(this.signUpDataSource)
+  SignUpRepoImpl(this.signUpDataSource);
 
   @override
   Future<Either<SignUpEntity, String>> registerUser({required String name,
